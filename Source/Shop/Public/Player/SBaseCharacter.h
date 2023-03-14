@@ -54,6 +54,8 @@ protected:
 
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     USceneComponent* SceneCameraComponent;
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Characteristics")
+    int money = 300000;
     // Called when the game starts or when spawned
     virtual void BeginPlay() override;
 
